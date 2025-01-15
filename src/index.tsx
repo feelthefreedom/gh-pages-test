@@ -12,7 +12,7 @@ export function App() {
 			<Header />
 			<main>
 				<Router>
-					<Route path="/gh-pages-test/" component={Home} />
+					<Route path="/gh-pages-test" component={Home} />
 					<Route default component={NotFound} />
 				</Router>
 			</main>
