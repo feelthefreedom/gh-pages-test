@@ -6,10 +6,10 @@ export function Header() {
 	return (
 		<header>
 			<nav>
-				<a href="/" class={url == '/' && 'active'}>
+				<a href="/gh-pages-test/" class={url == '/gh-pages-test/' && 'active'}>
 					Home
 				</a>
-				<a href="/404" class={url == '/404' && 'active'}>
+				<a href="/gh-pages-test/404" class={url == '/gh-pages-test/404' && 'active'}>
 					404
 				</a>
 			</nav>
